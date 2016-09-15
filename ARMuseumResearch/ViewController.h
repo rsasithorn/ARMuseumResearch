@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ARMuseumViewController.h"
+#import "ARMuseumWebserviceViewController.h"
+#import "PhotogrammetryViewController.h"
+#import "ARBrowserViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController 
+- (IBAction)starWebserviceAR;
+- (IBAction)startAR;
+- (IBAction)viewPersonalAR;
+- (IBAction)startPhotogrammetry;
 @end
